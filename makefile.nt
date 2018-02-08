@@ -1,0 +1,8 @@
+!include $(MOCADIR)\makefiles\Config.mk
+
+TARGET=main
+TARGETTYPE=exe
+
+OFILES=main.obj
+
+!include $(MOCADIR)\makefiles\ntstd.mk
